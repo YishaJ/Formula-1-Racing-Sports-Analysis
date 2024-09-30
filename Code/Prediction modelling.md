@@ -14,7 +14,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 # Load the dataset
-data = pd.read_csv('book1.csv')
+data = pd.read_csv('final_df.csv')
 
 # Define the target variable
 data['champion'] = data.groupby('year')['driver_points'].transform(lambda x: (x == x.max()).astype(int))
@@ -67,7 +67,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 # Load dataset and drop unnecessary columns
-df = pd.read_csv('book1.csv')
+df = pd.read_csv('final_df.csv')
 df = df.drop(['weather', 'status', 'raceId', 'resultId', 'points', 'driverId', 'constructorId'], axis=1)
 
 # Define target variable and features
