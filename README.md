@@ -98,3 +98,25 @@ This analysis not only provides insight into Formula 1 but can also be expanded 
 - **Predictive Modeling**: Use this framework to predict outcomes in other sports or competitive industries.
 - **Safety Innovations**: With more data on car technology and racing conditions, future models could improve predictions on race outcomes and safety measures.
 - **Sustainability Research**: Formula 1 is pushing toward carbon neutrality by 2030. Future work could include analysis of the environmental impact of these changes.
+
+## 🗂️ Repository Structure
+
+- `README.md`: Overview and documentation of the entire project.
+- `Data/`: Contains all raw, cleaned, and processed datasets.
+  - `README.md`: Documentation for the data directory.
+  - `final_df.csv`: The final dataset used for analysis.
+  - `raw data.rar`: Compressed raw data files.
+- `Code/`: Collection of markdown files detailing the analysis processes.
+  - `Data Preprocessing.md`: Explanation of the data cleaning and preprocessing steps.
+  - `Driver Performance Index (Using PCA).md`: Analysis of driver performance using PCA.
+  - `Hypothesis Testing: Poisson Distribution.md`: Poisson distribution hypothesis testing for incident rates.
+  - `Prediction Modelling.md`: Overview of the prediction models used.
+- `Statistical Analysis Results/`: Contains outputs from the statistical analysis.
+  - `Prediction Models/`: Outputs and evaluations from various prediction models.
+    - `Logistic Regression Model.md`: Detailed explanation of the logistic regression model.
+    - `Random Forest Model.md`: Detailed explanation of the Random Forest model.
+  - `Principal Component Analysis (PCA).md`: Full breakdown of the PCA analysis.
+  - `Hypothesis testing.md`: Results and interpretation of hypothesis tests.
+  - `Data Visualizations.md`: Collection of all charts and graphs.
+  - `Key Findings.md`
+- `PPT F1 Project.pdf`: Project presentation summarizing the findings and analysis.
