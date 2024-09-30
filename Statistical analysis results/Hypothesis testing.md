@@ -9,6 +9,8 @@ In 2015, Virtual Safety Cars (VSCs) were introduced. A VSC is a racing control p
 - **Null Hypothesis (H0):** There is no significant difference in incident rates before and after 2015.
 - **Alternative Hypothesis (H1):** There is a significant difference in incident rates before and after 2015.
 
+![image](https://github.com/user-attachments/assets/578080ed-9cef-41f0-a34e-b9b9d16caec0)
+
 ### Output
 - **Test Statistic:** 37.46
 - **P-value:** 0.0000
